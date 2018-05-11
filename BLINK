@@ -12,5 +12,5 @@ try:
         print ("LED off")
         GPIO.output(17, GPIO.LOW)
         time.sleep(0.25)
-except KeyboardInterrupy:
+except KeyboardInterrupt:
     GPIO.cleanip()
